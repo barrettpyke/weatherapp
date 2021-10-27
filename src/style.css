@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-color: #343a40;
+    font-family: 'Bebas Neue', cursive;
+    color: #eb6f4c;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    color: rgb(255, 255, 255);
+    font-family: 'Fugaz One', cursive;
+    padding: 5px 0px;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+#headerText {
+    margin: 20px 20px;
+}
+
+#or {
+    color: #eb6f4c;
+    font-size: 1.2em;
+}
+
+#searchContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+    white-space: nowrap;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-height: 40px;
+}
+
+#switch {
+    display: flex;
+    align-items: center;
+}
+
+#label-left {
+    font-size: 1.5em;
+    margin-right: 8px;
+}
+
+#label-right {
+    font-size: 1.5em;
+    margin-left: 3px;
+}
+
+#outlined-basic {
+    width: 300px;
+}
+
+#umbrella {
+    width: 65px;
+    height: 65px;
+    transform: rotate(20deg);
+    align-self: flex-start;
+}
+
+#cardContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #eb6f4c;
+    min-height: 400px;
+}
+
+.cardWidget {
+    max-width: 300px;
+    max-height: 400px;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.innerText {
+    margin-top: 15px;
+}
+
+
+.tempField {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 8px;
+}
